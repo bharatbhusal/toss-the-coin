@@ -1,6 +1,6 @@
 {
-  "name": "coin-flip-game",
-  "homepage": "https://bharatbhusal.github.io/coin-flip-game/",
+  "name": "toss-the-coin",
+  "homepage": "https://bharatbhusal.github.io/toss-the-coin/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
