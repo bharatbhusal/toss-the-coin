@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/toss-the-coin/static/css/main.27761c5c.css",
+    "main.js": "/toss-the-coin/static/js/main.d6574892.js",
+    "static/media/head.png": "/toss-the-coin/static/media/head.b8364cd863a935359916.png",
+    "static/media/tail.png": "/toss-the-coin/static/media/tail.9572f19f3974e7d4dc2c.png",
+    "index.html": "/toss-the-coin/index.html",
+    "main.27761c5c.css.map": "/toss-the-coin/static/css/main.27761c5c.css.map",
+    "main.d6574892.js.map": "/toss-the-coin/static/js/main.d6574892.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27761c5c.css",
+    "static/js/main.d6574892.js"
+  ]
+}
