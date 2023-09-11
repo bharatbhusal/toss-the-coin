@@ -1,0 +1,33 @@
+.navbar {
+    background-color: var(--color-inner-bg);
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+}
+
+.navbar-list {
+    justify-content: center;
+    list-style-type: none;
+    font-size: xx-large;
+    font-weight: bolder;
+    display: flex;
+    margin: 0;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    color: var(--color-bg);
+}
+
+.navbar-item {
+    cursor: pointer;
+    padding: 25px 13px;
+    border-radius: 8px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar-item:hover {
+    background-color: bisque;
+}

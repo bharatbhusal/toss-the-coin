@@ -1,0 +1,49 @@
+.coin {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    overflow: visible;
+}
+
+.coin img {
+    width: 200px;
+}
+
+.heads,
+.tails {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.tails {
+    transform: rotateX(180deg);
+}
+
+@keyframes spin-tails {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(1980deg);
+        /* 1980 - multiple of 180 */
+    }
+}
+
+
+@keyframes spin-heads {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(2160deg);
+        /*2160 - multiple of 360*/
+    }
+}

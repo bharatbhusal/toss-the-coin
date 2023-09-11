@@ -1,0 +1,26 @@
+.guess-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.guide {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: larger;
+}
+
+.finger {
+    padding: 1rem 0.5rem;
+    font-size: xx-large;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.3;
+}
